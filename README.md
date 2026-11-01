@@ -16,11 +16,11 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 
 
-**Examples** include Atlassian Mobile App, Notion Mobile, Asana Mobile, Monday.com Mobile, ClickUp Mobile, Microsoft 365 Mobile, Google Workspace Mobile, Slack Mobile, Trello Mobile, and Todoist (the category leaders).
+**Examples** include Microsoft 365 Mobile, Google Workspace Mobile, Slack Mobile, Atlassian Mobile App, Notion Mobile, Asana Mobile, Monday.com Mobile, ClickUp Mobile, Trello Mobile, and Todoist (the category leaders).
 
 
 
-**Open-source emphasis**: Mobile Productivity is a domain where open-source tooling is **genuinely abundant for task management and note-taking, but the mobile experience varies wildly**. The strongest native mobile options are **Pomodoist** (an AGPL-3.0 licensed Todoist alternative with native iOS and Android apps, Pomodoro focus sessions, and self-hosted sync) , **Jotter** (a local-first Markdown Kanban board with a native Android APK that works 100% offline using your synced Markdown folder) , and **Mushotoku** (a privacy-focused Android app with **no `INTERNET` permission at all**—it physically cannot send your data anywhere, covering tasks, habits, notes, finances, and meditation) . For GTD practitioners, **Mindwtr** provides a complete Getting Things Done system with native mobile apps and sync via WebDAV, Dropbox, or Syncthing . The critical caveat: **AFFiNE's mobile app is the most ambitious Notion competitor, but its Edgeless canvas is essentially view-only on mobile** out of the box , and **Joplin's mobile app is functional but "boring in the best way"**—a workhorse, not a delight .
+**Open-source emphasis**: Mobile Productivity is a domain where open-source tooling is **genuinely abundant for task management and note-taking, but the mobile experience varies wildly**. Leading full-featured solutions include **AppFlowy** (Flutter-based cross-platform Notion alternative), **AFFiNE** (unified docs, whiteboards, and database workspace), **Joplin** (reliable markdown notes and todo sync across iOS/Android), and **Logseq** (local-first outliner and graph-based personal knowledge management). The strongest focused native mobile task options are **Pomodoist** (AGPL-3.0 licensed Todoist alternative with native iOS and Android apps, Pomodoro focus sessions, and self-hosted sync), **Tasks.org** (feature-rich Android task manager with CalDAV sync), **Jotter** (local-first Markdown Kanban board with a native Android APK), and **Mushotoku** (privacy-focused Android app with no internet permissions).
 
 
 
@@ -30,161 +30,68 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global mobile productivity and collaboration software market is estimated at approximately **$65 billion to $75 billion**, projected to exceed $150 billion by the early 2030s propelled by remote/hybrid work, mobile-first deskless workers, and AI assistants. The sector is **moderately fragmented at the application layer**—where numerous specialized tools thrive across note-taking, task management, and project execution—but remains **heavily concentrated at the foundational suite tier** dominated by a few platform giants (Microsoft 365, Google Workspace) operating as core enterprise operating layers.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Atlassian Mobile App](https://www.atlassian.com/)**  
-
-  Mobile access to Jira, Confluence, and Bitbucket; view and update work items, comment, and access team knowledge on iOS and Android.
-
-
-
-- **[Notion Mobile](https://www.notion.com/)**  
-
-  Native mobile apps for Notion's all-in-one workspace; access wikis, docs, and databases with offline support and a polished mobile editor.
-
-
-
-- **[Asana Mobile](https://asana.com/)**  
-
-  Mobile task and project management; view timelines, update tasks, and collaborate on the go.
-
-
-
-- **[Monday.com Mobile](https://monday.com/)**  
-
-  Mobile access to monday.com's work OS; boards, dashboards, and updates on mobile devices.
-
-
-
-- **[ClickUp Mobile](https://clickup.com/)**  
-
-  Mobile access to ClickUp's all-in-one platform; tasks, docs, goals, and notifications on the go.
-
-
-
-- **[Microsoft 365 Mobile](https://www.microsoft.com/en-us/microsoft-365)**  
-
-  Mobile apps for Word, Excel, PowerPoint, Outlook, and Teams; integrated productivity across Microsoft's ecosystem.
-
-
-
-- **[Google Workspace Mobile](https://workspace.google.com/)**  
-
-  Mobile apps for Gmail, Drive, Docs, Calendar, and Meet; integrated productivity across Google's ecosystem.
-
-
-
-- **[Slack Mobile](https://slack.com/)**  
-
-  Native mobile apps for Slack messaging; channels, DMs, huddles, and notifications on iOS and Android.
-
-
-
-- **[Trello Mobile](https://trello.com/)**  
-
-  Native mobile apps for Trello's kanban boards; cards, lists, and Power-Ups on the go.
-
-
-
-- **[Todoist](https://todoist.com/)**  
-
-  Task management with native mobile apps; natural language input, projects, and cross-platform sync.
+| Platform | Description | Pricing (Starting Paid Tier) | Free Tier / Trial Limits | Company Scale (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft 365 Mobile](https://www.microsoft.com/en-us/microsoft-365)** | Integrated mobile productivity suite combining Word, Excel, PowerPoint, Outlook, OneNote, and Teams on iOS and Android. | $6.00/user/month (Business Basic, billed annually) | Free for basic viewing and lightweight editing on screens under 10.1 inches; includes 5 GB OneDrive cloud storage; 30-day free trial for Microsoft 365 Business Standard. | ~$3.1 Trillion market cap / $245B+ ARR (Microsoft) |
+| **[Google Workspace Mobile](https://workspace.google.com/)** | Unified cloud and mobile productivity tools covering Gmail, Google Drive, Docs, Sheets, Keep, Meet, and Calendar. | $6.00/user/month (Business Starter, 1-year commitment) | Free personal Google Account includes 15 GB shared storage across Gmail/Drive/Photos; 14-day free trial for Google Workspace business tiers. | ~$2.1 Trillion market cap / $40B+ Google Cloud ARR (Alphabet) |
+| **[Slack Mobile](https://slack.com/)** | Real-time enterprise messaging, audio/video huddles, channels, direct messages, and notification workflows on iOS and Android. | $7.25/user/month (Pro plan, billed annually) | Free forever plan: 90 days of message/file history, 10 app integrations, and 1:1 audio/video huddles with canvas notes. | $27.7 Billion acquisition valuation (Salesforce subsidiary) |
+| **[Atlassian Mobile App](https://www.atlassian.com/)** | Mobile companion for Jira, Confluence, and Bitbucket to monitor sprint tickets, resolve blockers, and view team wikis on the go. | $7.75/user/month (Jira Cloud Standard, billed annually) | Free forever plan for up to 10 users per site across Jira and Confluence with 2 GB file storage and community support. | ~$50 Billion market cap / $4.4B ARR |
+| **[Monday.com Mobile](https://monday.com/)** | Visual Work OS delivering mobile project boards, customizable status columns, automations, and executive dashboard tracking. | $9.00/seat/month (Basic plan, billed annually; 3-seat min: $27/mo) | Free forever plan for up to 2 seats, up to 3 boards, 200+ templates, and 500 MB storage; 14-day free trial of Pro plan. | ~$14 Billion market cap / $840M+ ARR |
+| **[Notion Mobile](https://www.notion.com/)** | All-in-one workspace mobile app unifying markdown docs, relational databases, team wikis, and AI notes with offline sync. | $10.00/member/month (Plus plan, billed annually) | Free forever plan for individuals: unlimited pages/blocks, up to 10 page guests, 5 MB file upload limit, and collaborative workspace trial with 1,000 block limit. | $10.00 Billion valuation (private) / $350M+ ARR |
+| **[Asana Mobile](https://asana.com/)** | Mobile project and task management enabling list, board, calendar, and timeline views with status updates and approval flows. | $10.99/user/month (Starter plan, billed annually) | Free forever (Personal plan) for up to 10 teammates with unlimited tasks, projects, messages, activity log, and 100+ integrations; 30-day free trial. | ~$3.5 Billion market cap / $650M+ ARR |
+| **[ClickUp Mobile](https://clickup.com/)** | All-in-one productivity app organizing tasks, docs, goals, chat, time tracking, and reminders with multi-view customization. | $7.00/user/month (Unlimited plan, billed annually) | Free forever plan: 100 MB storage, unlimited tasks, unlimited free plan members, collaborative docs, and 60 uses of custom fields. | $4.00 Billion valuation (private) / $200M+ ARR |
+| **[Trello Mobile](https://trello.com/)** | Kanban card-and-board workflow app with Butler mobile automations, checklists, custom tags, and file attachments. | $5.00/user/month (Standard plan, billed annually) | Free forever plan: up to 10 boards per workspace, unlimited cards, unlimited Power-Ups per board, up to 10 MB per file attachment, and 250 Workspace command runs/month. | $425 Million acquisition valuation (Atlassian subsidiary) |
+| **[Todoist](https://todoist.com/)** | Intuitive mobile task manager with natural language parsing, recurring due dates, priority filters, reminders, and cross-platform sync. | $4.00/user/month (Pro plan, billed annually) | Free forever (Beginner plan): up to 5 active projects, 5 guests per project, 5 MB file uploads, 3 filter views, and 1-week activity history. | $100 Million+ estimated valuation (Doist, bootstrapped) / $30M+ ARR |
 
 
 
 ## Open-Source GitHub Projects
 
-
-
-### Native Mobile Task Managers (Self-Hosted)
-
-
-
-- **[Pomodoist](https://github.com/Kabanya/Pomodoist)**  
-
-  The **most complete open-source Todoist alternative with native mobile apps** (AGPL-3.0, macOS/iOS/iPadOS/Android/Linux/Windows/web) . Features: **task organization** across inbox, today, upcoming, projects, timeline, kanban, priority matrix, and search; **Pomodoro sessions** with deep-focus tracking and configurable breaks; **productivity reports** showing weekly trends and focus-time insights . Self-hosted server included. **Best for users wanting a native mobile experience with Pomodoro integration** and a clear path to self-hosting—but it is newer and the mobile apps are part of a broader multi-platform release.
-
-
-
-- **[Jotter](https://pypi.org/project/jotter-app/3.9.8/)**  
-
-  A **local-first, Markdown Kanban board** with a **native Android APK** that works 100% offline . Features: **tasks stored as human-readable Markdown files** (OKF format); **Android app operates offline** using local Markdown files with IndexedDB caching and full touch/haptic feedback; **syncs via Syncthing, Git, or cloud drives**; **Kanban, list, Eisenhower Matrix, and time views**; **Git-backed time machine** for rollback; **MCP support** for AI assistants; Excel/CSV import/export; **Obsidian compatibility** (project directories include `index.md`) . **Best for privacy-focused Android users** wanting Markdown-based tasks with Git sync and no server required—but the Android app requires you to point it at a synced folder (no built-in cloud).
-
-
-
-- **[Mushotoku](https://github.com/tomfrischmuth/mushotoku)**  
-
-  The **most privacy-focused Android productivity app** available (FOSS, Android 13+) . **Critical differentiator**: ships with **no `INTERNET` permission at all**—it physically cannot send your data anywhere. Features: **tasks, habits, notes (Markdown), calendar, reminders, gratitude journal, mood tracking, meditation timer, income/expense tracking**; **SQLCipher encryption** at rest; **Argon2 passphrase protection**; **PIN/biometric app lock**; encrypted backup/restore; PDF export; 9 languages . Available on F-Droid. **Best for Android users wanting a private, offline-only productivity suite** with zero network capability—but it is **Android-only** with no iOS app, and the "no internet" design means no built-in sync.
-
-
-
-### GTD & Task Management with Mobile Sync
-
-
-
-- **[Mindwtr](https://github.com/dongdongbh/Mindwtr)**  
-
-  A **complete Getting Things Done (GTD) productivity system** with native mobile apps (AGPL-3.0) . Features: **GTD workflow** (inbox, next actions, projects, contexts); **mobile app** built with Expo Router and SQLite; **sync via WebDAV, Dropbox, Syncthing, or any folder-based service** . **Best for GTD practitioners** wanting a structured system with mobile sync—but it is more methodology-heavy than simple task managers, and mobile sync requires configuration.
-
-
-
-- **[OpenTodo](https://github.com/OpenTodoApp/OpenTodo)**  
-
-  A **local-first task manager you can host yourself** (self-hosted server) . Features: **email-to-task** (forward mail to a secret address); **GitHub/GitLab issues as tasks**; **CLI** (`ot add`, `ot today`); **Inbox/Today/Upcoming/Completed**, projects, subtasks, Kanban boards, labels, filters, saved views; **rich-text notes with character-by-character merge**; **CalDAV two-way sync** with Apple Reminders/Thunderbird/DAVx⁵; **AI assistant** (bring your own key); **REST API**; **web push notifications** . **Best for users wanting a self-hosted Todoist alternative with CalDAV sync**—but the mobile experience relies on the web interface and CalDAV clients rather than a native app.
-
-
-
-- **[Donetick](https://github.com/donetick/donetick)**  
-
-  Open-source **task and chore management** app with **alpha iOS (TestFlight) and Android APK** . Features: **natural language task creation** ("Change water filter every 6 months"); **advanced scheduling** (adaptive, due-date vs. completion-date recurrence, assignee rotation); **subtasks with smart reset**; **points system**; **NFC tag support**; **MFA and OIDC**; **REST API and webhooks**; **Home Assistant integration** . **Best for households and small teams** wanting collaborative chores with mobile apps—but offline support is "very limited" and the iOS app is alpha.
-
-
-
-### Mobile-Optimized Markdown & Notes
-
-
-
-- **[AFFiNE](https://github.com/toeverything/AFFiNE)**  
-
-  Open-source **knowledge base combining docs, whiteboards, and databases** with native iOS and Android apps . **Mobile assessment**: the **Docs layout is "genuinely enjoyable"** with clean card previews, easy tagging, and a calendar journal that works like desktop; **critical caveat**: the **Edgeless canvas is basically view-only on mobile**—you can pan but cannot edit shapes without enabling experimental features, and even then it is "awkward" . **Best for teams wanting a Notion + Miro replacement with mobile apps**—but do not expect to build whiteboards on your phone.
-
-
-
-- **[Flux](https://github.com/chindaronit/Flux)**  
-
-  Open-source **Android productivity app** built with Material 3 and Jetpack Compose (GPL-3.0) . Features: **flexible workspaces** for notes, tasks, journals, habits, and events; **rich Markdown editor** with LaTeX, Mermaid, tables; **advanced task management** with recurring tasks and reminders; **habit tracking with analytics**; **offline-first**; biometric app lock; 9 languages . **Best for Android users** wanting a modern, customizable productivity app—but it is **Android-only** with no self-hosted sync or iOS app.
-
-
-
-**Frameworks for building custom systems**: For a **native mobile Todoist alternative with self-hosting**, Pomodoist provides the most complete cross-platform app . For **Android with Markdown files and Git sync**, Jotter . For **maximum privacy with zero network capability**, Mushotoku . For **GTD methodology with mobile sync**, Mindwtr . For **a Notion-style workspace with mobile apps**, AFFiNE (accepting the whiteboard limitation) . No open-source project matches the **polished, integrated mobile experience** of Notion or Todoist—commercial platforms invest heavily in native app development, while open-source apps often prioritize data ownership over mobile polish.
+| Project | Stars | Description | Mobile Highlights |
+| :--- | :--- | :--- | :--- |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | Open-source alternative to Notion built with Flutter and Rust, prioritizing data privacy and offline support. | Native iOS and Android apps with full offline local storage, customizable views, Kanban boards, and document editing. |
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | Next-gen workspace combining docs, whiteboards, and multi-dimensional tables into a single canvas. | Native iOS and Android apps; polished doc layout with clean card previews, easy tagging, and journal calendar (edgeless whiteboard is view-focused on mobile). |
+| **[Joplin](https://github.com/laurent22/joplin)** | [![GitHub stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers) | Secure, open-source note-taking and to-do application with end-to-end encryption (E2EE) and cross-platform sync. | Production-grade iOS and Android apps with full offline notebook access, camera attachments, tags, search, and WebDAV/Nextcloud/Dropbox sync. |
+| **[Logseq](https://github.com/logseq/logseq)** | [![GitHub stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers) | Privacy-first, local-first open-source platform for knowledge management, outliner note-taking, and task tracking. | Native mobile apps for iOS and Android reading and writing directly to local plain-text Markdown and Org-mode files. |
+| **[Super Productivity](https://github.com/super-productivity/super-productivity)** | [![GitHub stars](https://img.shields.io/github/stars/super-productivity/super-productivity?style=social&color=white)](https://github.com/super-productivity/super-productivity/stargazers) | Advanced ToDo list, time tracker, and task manager for developers and knowledge workers with Jira/GitHub/GitLab integrations. | Android APK and responsive mobile web app with offline Pomodoro timers, subtasks, work break reminders, and WebDAV/Google Drive sync. |
+| **[Notesnook](https://github.com/streetwriters/notesnook)** | [![GitHub stars](https://img.shields.io/github/stars/streetwriters/notesnook?style=social&color=white)](https://github.com/streetwriters/notesnook/stargazers) | Fully open-source, zero-knowledge end-to-end encrypted note-taking app designed as a private Evernote alternative. | Feature-rich native iOS and Android apps with biometric app lock, offline editing, attachments, reminders, and tags. |
+| **[Standard Notes](https://github.com/standardnotes/app)** | [![GitHub stars](https://img.shields.io/github/stars/standardnotes/app?style=social&color=white)](https://github.com/standardnotes/app/stargazers) | End-to-end encrypted note suite for personal notes, daily journals, passwords, and task checklists. | Native iOS and Android apps with 100% offline access, passkey/biometric lock, and seamless background sync. |
+| **[Markor](https://github.com/gsantner/markor)** | [![GitHub stars](https://img.shields.io/github/stars/gsantner/markor?style=social&color=white)](https://github.com/gsantner/markor/stargazers) | Text editor for Android supporting Markdown, todo.txt, and quick notes with no lock-in. | Lightweight Android app operating directly on plaintext filesystem files; works 100% offline with zero trackers and Syncthing sync support. |
+| **[Tasks.org](https://github.com/tasks/tasks)** | [![GitHub stars](https://img.shields.io/github/stars/tasks/tasks?style=social&color=white)](https://github.com/tasks/tasks/stargazers) | Open-source task and to-do list manager for Android with CalDAV, Google Tasks, and Astrid task synchronization. | Highly customizable Android client with geofenced location reminders, home screen widgets, subtasks, tags, and calendar integration. |
+| **[Trilium Notes](https://github.com/TriliumNext/Notes)** | [![GitHub stars](https://img.shields.io/github/stars/TriliumNext/Notes?style=social&color=white)](https://github.com/TriliumNext/Notes/stargazers) | Hierarchical note-taking application designed for building large personal knowledge bases. | Mobile-optimized responsive web frontend with tree navigation, deep search, note encryption, and self-hosted backend sync. |
+| **[Donetick](https://github.com/donetick/donetick)** | [![GitHub stars](https://img.shields.io/github/stars/donetick/donetick?style=social&color=white)](https://github.com/donetick/donetick/stargazers) | Open-source task and chore management app with intelligent recurring schedules, points, and smart resets. | iOS (TestFlight) and Android APK support with natural language task creation, NFC tag triggers, and Home Assistant integration. |
+| **[Mindwtr](https://github.com/dongdongbh/Mindwtr)** | [![GitHub stars](https://img.shields.io/github/stars/dongdongbh/Mindwtr?style=social&color=white)](https://github.com/dongdongbh/Mindwtr/stargazers) | Structured Getting Things Done (GTD) productivity system with inbox, next actions, contexts, and projects. | Built with Expo Router and SQLite for native iOS and Android; syncs via WebDAV, Dropbox, Syncthing, or local folders. |
+| **[Simple Notes](https://github.com/SimpleMobileTools/Simple-Notes)** | [![GitHub stars](https://img.shields.io/github/stars/SimpleMobileTools/Simple-Notes?style=social&color=white)](https://github.com/SimpleMobileTools/Simple-Notes/stargazers) | Simple, ad-free mobile note-taking app with home screen widgets and no internet connection required. | Native Android app with fast text notes, checklists, customizable widgets, and local file export/import. |
+| **[Pomodoist](https://github.com/Kabanya/Pomodoist)** | [![GitHub stars](https://img.shields.io/github/stars/Kabanya/Pomodoist?style=social&color=white)](https://github.com/Kabanya/Pomodoist/stargazers) | Open-source Todoist alternative with integrated Pomodoro timer and self-hosted sync server. | Native iOS and Android apps with focus session tracking, project organization, timeline, and kanban views. |
+| **[Flux](https://github.com/chindaronit/Flux)** | [![GitHub stars](https://img.shields.io/github/stars/chindaronit/Flux?style=social&color=white)](https://github.com/chindaronit/Flux/stargazers) | Open-source Android productivity app built with Material 3 and Jetpack Compose for notes, tasks, habits, and journals. | Native Android app with offline-first storage, rich Markdown editor (LaTeX, Mermaid), habit analytics, and biometric app lock. |
+| **[OpenTodo](https://github.com/OpenTodoApp/OpenTodo)** | [![GitHub stars](https://img.shields.io/github/stars/OpenTodoApp/OpenTodo?style=social&color=white)](https://github.com/OpenTodoApp/OpenTodo/stargazers) | Local-first self-hosted task manager featuring email-to-task, GitHub/GitLab issue ingestion, and CalDAV sync. | CalDAV two-way sync with Apple Reminders and DAVx⁵ on mobile devices, paired with an installable mobile PWA. |
+| **[Mushotoku](https://github.com/tomfrischmuth/mushotoku)** | [![GitHub stars](https://img.shields.io/github/stars/tomfrischmuth/mushotoku?style=social&color=white)](https://github.com/tomfrischmuth/mushotoku/stargazers) | Privacy-first offline Android productivity app with tasks, habits, notes, finances, and meditation timer. | Native Android app built with zero `INTERNET` permissions; features SQLCipher database encryption and Argon2 passphrase protection. |
+| **[Jotter](https://github.com/simon123h/jotter)** | [![GitHub stars](https://img.shields.io/github/stars/simon123h/jotter?style=social&color=white)](https://github.com/simon123h/jotter/stargazers) | Local-first Markdown Kanban board and task management tool storing tasks as human-readable Markdown files. | Native Android APK with IndexedDB caching, offline local folder synchronization, touch/haptic interactions, and Syncthing sync support. |
 
 
 
 ## How to Contribute
 
-
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
@@ -192,22 +99,12 @@ Star the repo if you find it useful!
 
 ## Disclaimer
 
-
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Mobile productivity platforms handling personal and team data must comply with applicable privacy regulations (GDPR, CCPA) and organizational data governance policies; **self-hosted and local-first tools place full responsibility for backups on the user**—Mushotoku's no-internet design means no cloud backup unless you export manually .
-
-- **Open-source mobile productivity is abundant but the mobile experience varies significantly**—Pomodoist and Jotter provide native apps , Mushotoku prioritizes privacy over sync , and AFFiNE's mobile app is polished for docs but limited for whiteboards . **No open-source project matches the integrated polish** of Notion Mobile or Todoist—choose based on whether you prioritize data ownership (Jotter, Mushotoku), native app experience (Pomodoist), or workspace breadth (AFFiNE).
-
-- Verify license terms for commercial use; Pomodoist uses AGPL-3.0 , Jotter is open-source (check repository) , Mushotoku is FOSS , Mindwtr uses AGPL-3.0 , and AFFiNE uses MIT for the editor with a source-available backend .
-
-
+- Mobile productivity platforms handling personal and team data must comply with applicable privacy regulations (GDPR, CCPA) and organizational data governance policies; **self-hosted and local-first tools place full responsibility for backups on the user**—Mushotoku's no-internet design means no cloud backup unless you export manually.
+- **Open-source mobile productivity is abundant but the mobile experience varies significantly**—AppFlowy, Joplin, Pomodoist, and Tasks.org provide native apps, Mushotoku prioritizes privacy over sync, and AFFiNE's mobile app is polished for docs but limited for whiteboards. Choose based on whether you prioritize data ownership, native mobile experience, or full workspace breadth.
+- Verify license terms for commercial use; licenses range from MIT/Apache 2.0 (AppFlowy frontend, Joplin, Markor) to AGPL-3.0 (Pomodoist, Mindwtr) and GPL-3.0 (Tasks.org, Flux).
 
 ---
 
-
-
 **Made for mobile-first individuals, privacy-conscious users, and teams choosing their on-the-go productivity stack.**  
-
-Let's make mobile productivity more open, but with clear eyes about the native app polish and seamless sync that commercial platforms still lead on.
+Let's make mobile productivity more open, with clear guidance on both native mobile apps and trusted cloud solutions.
