@@ -1,50 +1,60 @@
-# Awesome-Mobile-Productivity-Platform
+# 📱 Awesome-Mobile-Productivity-Platform
 
-## Top Mobile Productivity Platform Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Mobile Productivity Platform Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Productivity-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Productivity-Platform?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Productivity-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Productivity-Platform?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Productivity-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Mobile-Productivity-Platform?style=flat-square&color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## ⚡ Top Mobile Productivity Platform Ecosystem
 
-*Focused on Native Mobile Apps, Offline-First Task Management & Self-Hosted Productivity Suites*  
+> A comprehensive, SEO-curated index of **Mobile Productivity Platforms**, **Native Task Managers**, **Offline-First Note-Taking Apps**, **Personal Knowledge Management (PKM)**, and **Self-Hosted Digital Workspaces** for iOS and Android.
 
+**Curated List of Enterprise SaaS Products & Open-Source GitHub Projects**  
+*Focused on Native Mobile Apps, Offline-First Task Management, CalDAV Sync & Self-Hosted Productivity Suites*  
 **Last updated: November 2026**
 
+---
 
+### 🔍 Overview
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobile Productivity Platforms**. These tools enable individuals and teams to manage tasks, notes, and projects directly on their phones—turning idle moments into productive time, while balancing the convenience of native apps against the data ownership of self-hosted alternatives.
+Welcome to the definitive directory tracking notable **SaaS platforms** and **open-source projects** in the **Mobile Productivity Platform** space. Whether managing complex distributed teams on the go or keeping private personal notes securely offline, these tools enable individuals and organizations to turn mobile devices into high-efficiency command centers.
 
+* **Top Enterprise SaaS Leaders:** Microsoft 365 Mobile, Google Workspace Mobile, Slack Mobile, Atlassian Mobile App, Notion Mobile, Asana Mobile, Monday.com Mobile, ClickUp Mobile, Trello Mobile, and Todoist.
+* **Open-Source & Privacy Leaders:** AppFlowy, AFFiNE, Joplin, Logseq, Super Productivity, Notesnook, Standard Notes, Markor, Tasks.org, and Pomodoist.
 
+---
 
-**Examples** include Microsoft 365 Mobile, Google Workspace Mobile, Slack Mobile, Atlassian Mobile App, Notion Mobile, Asana Mobile, Monday.com Mobile, ClickUp Mobile, Trello Mobile, and Todoist (the category leaders).
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-**Open-source emphasis**: Mobile Productivity is a domain where open-source tooling is **genuinely abundant for task management and note-taking, but the mobile experience varies wildly**. Leading full-featured solutions include **AppFlowy** (Flutter-based cross-platform Notion alternative), **AFFiNE** (unified docs, whiteboards, and database workspace), **Joplin** (reliable markdown notes and todo sync across iOS/Android), and **Logseq** (local-first outliner and graph-based personal knowledge management). The strongest focused native mobile task options are **Pomodoist** (AGPL-3.0 licensed Todoist alternative with native iOS and Android apps, Pomodoro focus sessions, and self-hosted sync), **Tasks.org** (feature-rich Android task manager with CalDAV sync), **Jotter** (local-first Markdown Kanban board with a native Android APK), and **Mushotoku** (privacy-focused Android app with no internet permissions).
+## 📊 Sector Overview & Market Dynamics
 
+The global mobile productivity and collaboration software market is estimated at approximately **$65 billion to $75 billion**, projected to exceed **$150 billion by the early 2030s** propelled by remote/hybrid work models, mobile-first deskless workforces, and embedded generative AI assistants. 
 
+The sector exhibits **moderate fragmentation at the application layer**—where numerous specialized tools thrive across note-taking, task management, and project execution—but remains **heavily concentrated at the foundational suite tier** dominated by platform titans (Microsoft 365, Google Workspace) operating as ubiquitous enterprise operating layers.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global mobile productivity and collaboration software market is estimated at approximately **$65 billion to $75 billion**, projected to exceed $150 billion by the early 2030s propelled by remote/hybrid work, mobile-first deskless workers, and AI assistants. The sector is **moderately fragmented at the application layer**—where numerous specialized tools thrive across note-taking, task management, and project execution—but remains **heavily concentrated at the foundational suite tier** dominated by a few platform giants (Microsoft 365, Google Workspace) operating as core enterprise operating layers.
-
-
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS / Hosted Platforms
 
 | Platform | Description | Pricing (Starting Paid Tier) | Free Tier / Trial Limits | Company Scale (Valuation / Revenue) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -59,9 +69,9 @@ The global mobile productivity and collaboration software market is estimated at
 | **[Trello Mobile](https://trello.com/)** | Kanban card-and-board workflow app with Butler mobile automations, checklists, custom tags, and file attachments. | $5.00/user/month (Standard plan, billed annually) | Free forever plan: up to 10 boards per workspace, unlimited cards, unlimited Power-Ups per board, up to 10 MB per file attachment, and 250 Workspace command runs/month. | $425 Million acquisition valuation (Atlassian subsidiary) |
 | **[Todoist](https://todoist.com/)** | Intuitive mobile task manager with natural language parsing, recurring due dates, priority filters, reminders, and cross-platform sync. | $4.00/user/month (Pro plan, billed annually) | Free forever (Beginner plan): up to 5 active projects, 5 guests per project, 5 MB file uploads, 3 filter views, and 1-week activity history. | $100 Million+ estimated valuation (Doist, bootstrapped) / $30M+ ARR |
 
+---
 
-
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
 | Project | Stars | Description | Mobile Highlights |
 | :--- | :--- | :--- | :--- |
@@ -84,20 +94,39 @@ The global mobile productivity and collaboration software market is estimated at
 | **[Mushotoku](https://github.com/tomfrischmuth/mushotoku)** | [![GitHub stars](https://img.shields.io/github/stars/tomfrischmuth/mushotoku?style=social&color=white)](https://github.com/tomfrischmuth/mushotoku/stargazers) | Privacy-first offline Android productivity app with tasks, habits, notes, finances, and meditation timer. | Native Android app built with zero `INTERNET` permissions; features SQLCipher database encryption and Argon2 passphrase protection. |
 | **[Jotter](https://github.com/simon123h/jotter)** | [![GitHub stars](https://img.shields.io/github/stars/simon123h/jotter?style=social&color=white)](https://github.com/simon123h/jotter/stargazers) | Local-first Markdown Kanban board and task management tool storing tasks as human-readable Markdown files. | Native Android APK with IndexedDB caching, offline local folder synchronization, touch/haptic interactions, and Syncthing sync support. |
 
+---
 
+## 🤝 How to Contribute
 
-## How to Contribute
+Contributions are warmly welcomed! Help keep this repository comprehensive, up-to-date, and accurate:
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+1. 🍴 **Fork** the repository.
+2. 🌿 **Create** a branch: `git checkout -b feature/new-productivity-tool`.
+3. 📝 **Add/edit** entries in `README.md` following the standard table formatting.
+4. 🔗 **Include**: Tool name, website/repo link, verified starting pricing, free tier limits, company valuation or GitHub stars, and a concise 1–2 sentence description highlighting mobile features.
+5. 🚀 **Submit** a Pull Request with a clear, factual explanation.
 
-Star the repo if you find it useful!
+---
 
+## 💖 Support & Sponsorship
 
+If you find this curated resource helpful for discovering mobile productivity workflows or benchmarking platforms, please consider supporting the project:
 
-## Disclaimer
+- ⭐ **Star** this repository on GitHub to boost visibility.
+- 🍴 **Fork** and share it with teammates, colleagues, and productivity enthusiasts.
+- ☕ **Buy a coffee & sponsor**: You can support ongoing maintenance and research directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for your encouragement and support! 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobile-Productivity-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobile-Productivity-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - Mobile productivity platforms handling personal and team data must comply with applicable privacy regulations (GDPR, CCPA) and organizational data governance policies; **self-hosted and local-first tools place full responsibility for backups on the user**—Mushotoku's no-internet design means no cloud backup unless you export manually.
@@ -106,5 +135,7 @@ Star the repo if you find it useful!
 
 ---
 
-**Made for mobile-first individuals, privacy-conscious users, and teams choosing their on-the-go productivity stack.**  
-Let's make mobile productivity more open, with clear guidance on both native mobile apps and trusted cloud solutions.
+<p align="center">
+  <b>Made with ❤️ for mobile-first individuals, privacy-conscious users, and agile teams choosing their on-the-go productivity stack.</b><br/>
+  <i>Let's make mobile productivity more open, with clear guidance on both native mobile apps and trusted cloud solutions.</i>
+</p>
